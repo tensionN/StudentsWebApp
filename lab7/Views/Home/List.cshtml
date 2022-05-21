@@ -1,0 +1,43 @@
+﻿@model IEnumerable<lab7.Models.Student>
+@{
+    ViewData["Title"] = "Students";
+
+    if(Model != null && Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Lastname</th>
+                    <th>Name</th>
+                    <th>Group number</th>
+                    <th>Name of specialty</th>
+                    <th>Average score</th>
+                </tr>
+            </thead>
+            <tbody>
+            @{
+                foreach(var item in Model)
+                {
+                    <tr>
+                        <td><a asp-action="Details" asp-route-id="@item.ID">@Html.DisplayFor(modelItem => item.ID)</a></td>
+                        <td>@Html.DisplayFor(modelItem => item.Lastname)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GroupNumber)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NameSpecialty)</td>
+                        <td>@Html.DisplayFor(modelItem => item.AverageScore)</td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+        <a class="btn btn-success" asp-action="Add">Add a new student</a>
+    } 
+    else
+    {
+        <div class="alert alert-danger", role="alert">
+            No item found!
+        </div>    
+    }
+}
+

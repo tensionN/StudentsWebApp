@@ -1,0 +1,41 @@
+﻿@model lab7.Models.Student
+@{
+    ViewData["Title"] = "Information about student";
+
+    if(Model != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Lastname</th>
+                    <th>Name</th>
+                    <th>Group number</th>
+                    <th>Name of specialty</th>
+                    <th>Average score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.ID</td>
+                    <td>@Model.Lastname</td>
+                    <td>@Model.Name</td>
+                    <td>@Model.GroupNumber</td>
+                    <td>@Model.NameSpecialty</td>
+                    <td>@Model.AverageScore</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.ID">Delete student</a>
+        <a class="btn btn-primary" asp-action="List">Back</a>
+         
+    } 
+    else
+    {
+        <div class="alert alert-danger", role="alert">
+            No item found!
+        </div>    
+    }
+}
+
