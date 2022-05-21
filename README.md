@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/90928531/169643231-89ded185-a622-401e-97c8-abb6abbc58c2.png)
 
 # Add a new student
-![image](https://user-images.githubusercontent.com/90928531/169643131-03c3a657-6e5e-4cdb-84f6-79767e101a0e.png)
+![image](https://user-images.githubusercontent.com/90928531/169643269-895a05f7-176e-4582-9332-bebe8704a9d8.png)
 ![image](https://user-images.githubusercontent.com/90928531/169643143-04b73683-cfc4-4dbf-9534-38e1c5f27556.png)
 
 # Information about one student
