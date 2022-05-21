@@ -22,3 +22,6 @@
 
 # Delete student
 ![image](https://user-images.githubusercontent.com/90928531/169643171-39a1f56d-b465-4a5c-bf0d-75f08f371197.png)
+
+# Database
+![image](https://user-images.githubusercontent.com/90928531/169643517-9799b141-697f-4963-80a1-8569fc1e30d8.png)
