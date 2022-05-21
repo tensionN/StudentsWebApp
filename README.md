@@ -1,5 +1,3 @@
-# Simple web application (laboratory work)
-
 # Task Condition
 ![image](https://user-images.githubusercontent.com/90928531/169642899-b3c7c287-47bd-4901-aad0-bf63e34195a1.png)
 ![image](https://user-images.githubusercontent.com/90928531/169642880-7dbdd11e-288b-4ada-818a-689c48b9ed75.png)
