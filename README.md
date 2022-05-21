@@ -11,7 +11,7 @@
 ![image](https://user-images.githubusercontent.com/90928531/169643082-0f04fb4c-ca9b-4587-9d60-79177b6faae3.png)
 
 # List of students
-![image](https://user-images.githubusercontent.com/90928531/169643097-dab909de-3daf-45e0-8a62-6567f324fd58.png)
+![image](https://user-images.githubusercontent.com/90928531/169643231-89ded185-a622-401e-97c8-abb6abbc58c2.png)
 
 # Add a new student
 ![image](https://user-images.githubusercontent.com/90928531/169643131-03c3a657-6e5e-4cdb-84f6-79767e101a0e.png)
